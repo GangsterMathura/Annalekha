@@ -1,38 +1,45 @@
-# अन्नलेखा — GitHub Pages website
+# अन्नलेखा — प्रकाशन हेतु निर्देश
 
-A static Hindi web application for household entitlement calculation, monthly grain-delivery records, official state/UT help routes and preparation of a formal Hindi representation.
+अन्नलेखा एक स्थिर हिन्दी जाल-साधन है। इसके द्वारा कुटुम्ब अपनी सामान्य अन्न-प्राप्ति मात्रा की गणना कर सकते हैं, मासिक प्राप्तियों का लेखा रख सकते हैं, राज्य एवं संघ-राज्य क्षेत्रों के शासकीय सहायता-मार्ग देख सकते हैं तथा औपचारिक हिन्दी निवेदन का प्रारूप बना सकते हैं।
 
-## Files
-- `index.html` — Hindi interface and page content
-- `styles.css` — responsive visual design
-- `app.js` — calculator, local ledger, state/UT directory and representation generator
-- `SOURCES.md` — official reference pages and scope notes
-- `LICENSE` — MIT License
-- `.nojekyll` — GitHub Pages configuration
+## सात संचिका
 
-## Publish on GitHub Pages
-1. Create a public repository named `annalekha`.
-2. Upload the contents of this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select `main` and `/(root)`, then save.
-6. GitHub Pages will publish the site after deployment completes.
+- `index.html` — मुख्य पृष्ठ और हिन्दी पाठ
+- `styles.css` — रूप-सज्जा तथा छोटे-बड़े पर्दों के अनुकूल विन्यास
+- `app.js` — गणना, निज लेखा, राज्य-सूची और निवेदन-प्रारूप
+- `README.md` — यह परिचय तथा प्रकाशन-विधि
+- `SOURCES.md` — शासकीय स्रोत और साधन की सीमाएँ
+- `LICENSE` — MIT उपयोग-अनुज्ञा
+- `.nojekyll` — GitHub Pages के लिए विन्यास-सूचक रिक्त संचिका
 
-No build step, server, database, API key or package installation is required.
+## GitHub Pages पर प्रकाशित करने की विधि
 
-## Features
-- General entitlement baseline: 5 kg per eligible person/month for Priority Households; 35 kg per household/month for Antyodaya Anna Yojana households.
-- Household member count and entitlement calculation.
-- Monthly records stored in the visitor's browser.
-- CSV export and print view.
-- A directory selector for all 28 States and 8 Union Territories. Where a direct state/UT grievance route is not listed in the official NFSA directory, the app directs the visitor to the official directory rather than inventing a destination.
-- District food and supply office directory.
-- Hindi representation generator; generated text is not submitted automatically.
+१. `annalekha` नाम से एक सार्वजनिक repository बनाएँ।
+२. इस संचिका के भीतर की सातों संचिकाएँ repository के मूल स्तर पर चढ़ाएँ।
+३. repository में **Settings → Pages** खोलें।
+४. **Build and deployment** के अन्तर्गत **Deploy from a branch** चुनें।
+५. शाखा `main` और निर्देशिका `/(root)` चुनकर **Save** दबाएँ।
+६. प्रकाशन पूर्ण होने पर GitHub Pages द्वारा दिया गया जाल-पता खोलें।
 
-## Privacy and limitations
-Ledger entries are stored in the visitor's browser using `localStorage`; the app does not send the entered personal details to a server. Clearing browser storage or changing devices may remove or separate records. Google Fonts is loaded from an external service for typography; remove the font links in `index.html` for a system-font-only version.
+इसके लिए अलग निर्माण-चरण, निज संगणक, आँकड़ा-भण्डार, API कुंजी अथवा अतिरिक्त संकुल की आवश्यकता नहीं है।
 
-This is an independent public-interest tool, not a government service. It does not decide eligibility or file a formal grievance. State-specific entitlements, grain composition, prices, and procedures may differ and must be checked with the relevant State/UT department.
+## मुख्य कार्य
 
-## Customisation
-Edit the Hindi wording in `index.html`. Entitlement calculations and official directory links are in `app.js`. Styling tokens are at the top of `styles.css`.
+- प्राथमिकता-प्राप्त कुटुम्ब के प्रत्येक पात्र सदस्य के लिए प्रति मास ५ किलोग्राम का सामान्य आधार।
+- अन्त्योदय अन्न योजना के प्रत्येक कुटुम्ब के लिए प्रति मास ३५ किलोग्राम का सामान्य आधार।
+- कुटुम्ब के सदस्यों की संख्या के अनुसार अधिकार-गणना।
+- आगन्तुक के अपने जाल-अन्वेषक में मासिक प्राप्तियों का लेखा।
+- सारणी-पत्र निर्यात तथा मुद्रण।
+- सभी २८ राज्यों और ८ संघ-राज्य क्षेत्रों की सूची।
+- जनपद खाद्य एवं आपूर्ति कार्यालयों की राष्ट्रीय सूची।
+- हिन्दी निवेदन-प्रारूप; निवेदन अपने आप किसी कार्यालय में नहीं भेजा जाता।
+
+## गोपनीयता और सीमाएँ
+
+लेखा आगन्तुक के जाल-अन्वेषक में `localStorage` के माध्यम से सुरक्षित रहता है। प्रविष्ट व्यक्तिगत विवरण किसी सर्वर पर नहीं भेजे जाते। जाल-अन्वेषक का संग्रह मिटाने अथवा अन्य यन्त्र पर जाने से पुराना लेखा उपलब्ध न रहे, ऐसा सम्भव है। अक्षर-रूप के लिए Google Fonts से बाहरी अक्षर-संग्रह लिया जाता है।
+
+यह स्वतन्त्र लोकहितकारी साधन है, शासकीय सेवा नहीं। यह पात्रता का निर्णय नहीं करता और औपचारिक परिवाद स्वयं दर्ज नहीं करता। राज्य-विशेष के अतिरिक्त अधिकार, अन्न-विभाजन, मूल्य और वितरण-विधान के लिए सम्बन्धित राज्य अथवा संघ-राज्य क्षेत्र के विभाग से पुष्टि करें।
+
+## परिवर्तन
+
+मुख्य पृष्ठ का हिन्दी पाठ `index.html` में, गणना और शासकीय मार्ग `app.js` में तथा रूप-सज्जा `styles.css` में है।

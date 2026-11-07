@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#123b2d">
-  <meta name="description" content="अन्नलेखा — परिवार के सार्वजनिक वितरण प्रणाली के अन्न-अधिकार, प्राप्त मात्रा और कमी का निजी लेखा।">
+  <meta name="description" content="अन्नलेखा — कुटुम्ब के सार्वजनिक अन्न-वितरण के अधिकार, प्राप्त परिमाण और न्यूनता का निज लेखा।">
   <title>अन्नलेखा — अन्न-अधिकार का निजी लेखा</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +14,9 @@
 <body>
   <div class="grain"></div>
   <header class="topbar">
-    <a class="brand" href="#" aria-label="अन्नलेखा मुख्य पृष्ठ">
+    <a class="brand" href="#" aria-label="अन्नलेखा का मुख्य पृष्ठ">
       <span class="brand-mark">अ</span>
-      <span><strong>अन्नलेखा</strong><small>परिवार के अन्न-अधिकार का लेखा</small></span>
+      <span><strong>अन्नलेखा</strong><small>कुटुम्ब के अन्नाधिकार का लेखा</small></span>
     </a>
     <nav><a href="#ganana">अधिकार-गणना</a><a href="#lekha">मासिक लेखा</a><a href="#sahayata">सहायता</a><a href="#rajya">राज्यवार मार्ग</a></nav>
     <button class="quiet-button" id="printTop" type="button">लेखा मुद्रित करें ↗</button>
@@ -25,12 +25,12 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow"><span></span> जनोपयोगी निजी साधन · निःशुल्क</div>
-        <h1>आपका अन्न-अधिकार।<br><em>आपके अपने लेखे में।</em></h1>
-        <p class="hero-intro">अपने परिवार की मासिक अन्न-मात्रा जानें, उचित वितरण से उसका मिलान करें और प्रत्येक प्राप्ति का प्रमाण-सहित लेखा रखें।</p>
+        <div class="eyebrow"><span></span> लोकहितकारी निज साधन · निःशुल्क</div>
+        <h1>आपका अन्नाधिकार।<br><em>आपके निज लेखे में।</em></h1>
+        <p class="hero-intro">अपने कुटुम्ब की मासिक अन्न-मात्रा जानें, नियत वितरण से उसका मिलान करें और प्रत्येक प्राप्ति का प्रमाण सहित लेखा रखें।</p>
         <div class="hero-actions">
           <a class="primary-button" href="#ganana">अपना लेखा आरम्भ करें <span>↘</span></a>
-          <span class="privacy-note"><span class="lock">⌑</span> आपका विवरण इसी उपकरण में रहता है।</span>
+          <span class="privacy-note"><span class="lock">⌑</span> आपका समस्त लेखा इसी यन्त्र में सुरक्षित रहता है।</span>
         </div>
       </div>
       <div class="hero-art" aria-label="अन्न और माप का कलात्मक चित्र">
@@ -38,38 +38,38 @@
         <div class="grain-illustration">अन्न</div>
         <div class="art-caption"><span>01 / अधिकार</span><span>माप · मिलान · प्रमाण</span></div>
       </div>
-      <div class="hero-bottom"><span>सही जानकारी से सशक्त परिवार</span><span>भारत · सार्वजनिक वितरण</span></div>
+      <div class="hero-bottom"><span>सही जानकारी से सशक्त परिवार</span><span>भारत · सार्वजनिक अन्न-वितरण</span></div>
     </section>
 
     <section class="section intro-grid" id="ganana">
       <div class="section-heading">
         <div class="eyebrow dark"><span></span> प्रथम चरण</div>
         <h2>मासिक अधिकार<br>की गणना करें।</h2>
-        <p>अपने अन्न-पत्र पर अंकित श्रेणी चुनें। यह गणना राष्ट्रीय खाद्य सुरक्षा अधिनियम के सामान्य मानक पर आधारित है। राज्य के अतिरिक्त प्रावधान अलग हो सकते हैं।</p>
+        <p>अपने अन्न-प्राप्ति पत्र पर अंकित वर्ग चुनें। यह गणना राष्ट्रीय खाद्य सुरक्षा अधिनियम के सामान्य मानदण्ड पर आधारित है। राज्य के अतिरिक्त विधान भिन्न हो सकते हैं।</p>
       </div>
       <div class="calculator panel">
-        <div class="panel-top"><span>परिवार का विवरण</span><span class="step">01 — 02</span></div>
-        <label for="category">अन्न-पत्र की श्रेणी</label>
+        <div class="panel-top"><span>कुटुम्ब का परिचय</span><span class="step">01 — 02</span></div>
+        <label for="category">अन्न-प्राप्ति पत्र का वर्ग</label>
         <select id="category">
-          <option value="phh">प्राथमिकता प्राप्त परिवार (प्रति व्यक्ति)</option>
-          <option value="aay">अन्त्योदय अन्न योजना (प्रति परिवार)</option>
+          <option value="phh">प्राथमिकता-प्राप्त कुटुम्ब (प्रति सदस्य)</option>
+          <option value="aay">अन्त्योदय अन्न योजना (प्रति कुटुम्ब)</option>
         </select>
         <div id="peopleWrap">
-          <label for="people">परिवार के पात्र सदस्यों की संख्या</label>
+          <label for="people">कुटुम्ब के पात्र सदस्यों की संख्या</label>
           <div class="number-control"><button type="button" id="minus" aria-label="एक सदस्य घटाएँ">−</button><output id="peopleValue">4</output><button type="button" id="plus" aria-label="एक सदस्य बढ़ाएँ">+</button></div>
         </div>
         <div class="result-strip">
-          <div><small>मासिक सामान्य अन्न-अधिकार</small><strong><span id="entitlement">20</span> <b>किलोग्राम</b></strong></div>
+          <div><small>मासिक सामान्य अन्नाधिकार</small><strong><span id="entitlement">20</span> <b>किलोग्राम</b></strong></div>
           <div class="result-seal">मासिक<br>मात्रा</div>
         </div>
-        <p class="microcopy" id="calcNote">प्राथमिकता श्रेणी में सामान्य मानक 5 किलोग्राम प्रति पात्र व्यक्ति प्रति माह है।</p>
+        <p class="microcopy" id="calcNote">प्राथमिकता-वर्ग में सामान्य मानदण्ड प्रति पात्र सदस्य प्रति मास ५ किलोग्राम है।</p>
       </div>
     </section>
 
     <section class="section ledger-section" id="lekha">
       <div class="ledger-title">
         <div><div class="eyebrow dark"><span></span> द्वितीय चरण</div><h2>प्राप्ति का<br>मासिक लेखा।</h2></div>
-        <p>वितरण के समय प्राप्त मात्रा लिखें। लेखा अपने आप कमी या अधिकता की गणना करेगा। कोई विवरण किसी बाहरी स्थल पर नहीं भेजा जाता।</p>
+        <p>वितरण के समय प्राप्त मात्रा लिखें। लेखा अपने आप न्यूनता अथवा अधिकता की गणना करेगा। कोई विवरण किसी बाहरी स्थल पर नहीं भेजा जाता।</p>
       </div>
       <div class="ledger-layout">
         <div class="entry-card panel">
@@ -77,13 +77,13 @@
           <form id="entryForm">
             <div class="form-row">
               <div class="field"><label for="entryDate">प्राप्ति की तिथि</label><input id="entryDate" type="date" required></div>
-              <div class="field"><label for="entryType">अन्न का प्रकार</label><select id="entryType"><option>चावल</option><option>गेहूँ</option><option>मोटा अनाज</option><option>मिश्रित अन्न</option></select></div>
+              <div class="field"><label for="entryType">अन्न का भेद</label><select id="entryType"><option>चावल</option><option>गेहूँ</option><option>स्थूल अन्न</option><option>मिश्र अन्न</option></select></div>
             </div>
             <div class="form-row">
-              <div class="field"><label for="quantity">प्राप्त मात्रा (किलोग्राम)</label><input id="quantity" type="number" min="0.01" max="500" step="0.01" placeholder="उदा. 18" required></div>
-              <div class="field"><label for="price">देय मूल्य (₹) — ऐच्छिक</label><input id="price" type="number" min="0" step="0.01" placeholder="उदा. 0"></div>
+              <div class="field"><label for="quantity">प्राप्त मात्रा (किलोग्राम)</label><input id="quantity" type="number" min="0.01" max="500" step="0.01" placeholder="उदाहरणार्थ १८" required></div>
+              <div class="field"><label for="price">देय धनराशि (₹) — वैकल्पिक</label><input id="price" type="number" min="0" step="0.01" placeholder="उदाहरणार्थ ०"></div>
             </div>
-            <div class="field"><label for="note">टिप्पणी — ऐच्छिक</label><input id="note" type="text" maxlength="120" placeholder="उदा. तौल में कमी बताई गई"></div>
+            <div class="field"><label for="note">विशेष कथन — वैकल्पिक</label><input id="note" type="text" maxlength="120" placeholder="उदा. तौल में न्यूनता बताई गई"></div>
             <button class="primary-button full" type="submit">प्राप्ति लेखे में जोड़ें <span>＋</span></button>
           </form>
         </div>
@@ -92,14 +92,14 @@
           <div class="summary-number"><strong id="received">0</strong><span>किलोग्राम प्राप्त</span></div>
           <div class="meter"><span id="meterFill"></span></div>
           <div class="summary-line"><span>सामान्य अधिकार</span><b><span id="summaryEntitlement">20</span> कि.ग्रा.</b></div>
-          <div class="summary-line"><span>शेष मात्रा</span><b id="remaining">20 कि.ग्रा.</b></div>
-          <div class="status" id="status">अभी कोई प्राप्ति दर्ज नहीं है।</div>
-          <button class="outline-button" id="exportBtn" type="button">लेखा-पत्र प्राप्त करें ↓</button>
+          <div class="summary-line"><span>अवशिष्ट मात्रा</span><b id="remaining">20 कि.ग्रा.</b></div>
+          <div class="status" id="status">अभी कोई प्राप्ति अंकित नहीं है।</div>
+          <button class="outline-button" id="exportBtn" type="button">लेखा-पत्र निर्यात करें ↓</button>
         </aside>
       </div>
       <div class="records panel">
-        <div class="records-head"><div><span class="eyebrow dark">आपका अभिलेख</span><h3>प्राप्तियों का विवरण</h3></div><button id="clearBtn" class="text-button" type="button">इस मास का लेखा मिटाएँ</button></div>
-        <div id="emptyState" class="empty-state"><span class="empty-icon">अ</span><strong>अभी कोई प्रविष्टि नहीं।</strong><span>पहली प्राप्ति जोड़ते ही उसका विवरण यहाँ दिखाई देगा।</span></div>
+        <div class="records-head"><div><span class="eyebrow dark">आपका अभिलेख</span><h3>प्राप्तियों का पूर्ण वृत्तान्त</h3></div><button id="clearBtn" class="text-button" type="button">इस मास का लेखा हटाएँ</button></div>
+        <div id="emptyState" class="empty-state"><span class="empty-icon">अ</span><strong>अभी कोई प्रविष्टि नहीं।</strong><span>प्रथम प्राप्ति जोड़ते ही उसका पूर्ण विवरण यहाँ दिखाई देगा।</span></div>
         <div class="table-wrap" id="tableWrap" hidden>
           <table><thead><tr><th>तिथि</th><th>अन्न</th><th>मात्रा</th><th>देय मूल्य</th><th>टिप्पणी</th><th></th></tr></thead><tbody id="recordsBody"></tbody></table>
         </div>
@@ -107,88 +107,88 @@
     </section>
 
     <section class="section guide-section" id="sahayata">
-      <div class="guide-intro"><div class="eyebrow"><span></span> तृतीय चरण</div><h2>कमी हो तो<br><em>प्रमाण सुरक्षित रखें।</em></h2><p>मात्रा में अन्तर दिखाई दे तो तुरन्त निष्कर्ष न निकालें। पहले पर्ची, तिथि और वास्तविक तौल का विवरण सुरक्षित रखें।</p></div>
+      <div class="guide-intro"><div class="eyebrow"><span></span> तृतीय सोपान</div><h2>न्यूनता हो तो<br><em>प्रमाण सुरक्षित रखें।</em></h2><p>मात्रा में अन्तर दिखे तो तत्काल निष्कर्ष न निकालें। पहले प्राप्ति-पत्र, तिथि और वास्तविक तौल का लेखा सुरक्षित रखें।</p></div>
       <div class="guide-cards">
-        <article><span class="guide-no">01</span><h3>पर्ची सुरक्षित रखें</h3><p>वितरण की पर्ची, संदेश अथवा उपलब्ध अभिलेख की प्रति रखें।</p></article>
-        <article><span class="guide-no">02</span><h3>वास्तविक तौल लिखें</h3><p>मिली हुई मात्रा को यथासम्भव प्रमाणित तौल के आधार पर दर्ज करें।</p></article>
-        <article><span class="guide-no">03</span><h3>समुचित कार्यालय से कहें</h3><p>अपने राज्य के खाद्य एवं सार्वजनिक वितरण विभाग के परिवाद-मार्ग का उपयोग करें।</p></article>
+        <article><span class="guide-no">01</span><h3>प्राप्ति-पत्र सुरक्षित रखें</h3><p>वितरण का प्राप्ति-पत्र, सन्देश अथवा उपलब्ध अभिलेख की प्रतिलिपि रखें।</p></article>
+        <article><span class="guide-no">02</span><h3>वास्तविक तौल अंकित करें</h3><p>प्राप्त मात्रा को यथासम्भव प्रमाणित तौल के आधार पर अंकित करें।</p></article>
+        <article><span class="guide-no">03</span><h3>समुचित कार्यालय को निवेदन दें</h3><p>अपने राज्य के खाद्य एवं सार्वजनिक अन्न-वितरण विभाग के परिवाद-मार्ग का उपयोग करें।</p></article>
       </div>
     </section>
 
 
     <section class="section state-section" id="rajya">
       <div class="ledger-title">
-        <div><div class="eyebrow dark"><span></span> चतुर्थ चरण</div><h2>अपने राज्य का<br>सहायता मार्ग चुनें।</h2></div>
-        <p>अपने निवास-क्षेत्र के अनुसार आधिकारिक अन्न-वितरण विभाग और उपलब्ध परिवाद-मार्ग खोलें। जहाँ सीधा राज्यीय मार्ग उपलब्ध नहीं है, वहाँ राष्ट्रीय निर्देशिका दी गई है।</p>
+        <div><div class="eyebrow dark"><span></span> चतुर्थ सोपान</div><h2>अपने राज्य का<br>सहायता मार्ग चुनें।</h2></div>
+        <p>अपने निवास-क्षेत्र के अनुसार शासकीय अन्न-वितरण विभाग और उपलब्ध परिवाद-मार्ग खोलें। जहाँ सीधा राज्यीय मार्ग उपलब्ध नहीं है, वहाँ राष्ट्रीय सूची दी गई है।</p>
       </div>
       <div class="state-panel panel">
         <div class="field">
-          <label for="stateSelect">अपना राज्य अथवा संघ राज्य क्षेत्र चुनें</label>
+          <label for="stateSelect">अपना राज्य अथवा संघ-राज्य क्षेत्र चुनें</label>
           <select id="stateSelect"></select>
         </div>
         <div class="state-result" id="stateResult" aria-live="polite">
           <div class="state-emblem">भारत</div>
-          <div class="state-info"><span class="eyebrow dark">चयनित क्षेत्र</span><h3 id="stateName">अपने क्षेत्र का चयन करें</h3><p id="stateDescription">आधिकारिक सहायता-मार्ग यहाँ प्रदर्शित होगा।</p></div>
+          <div class="state-info"><span class="eyebrow dark">चयनित क्षेत्र</span><h3 id="stateName">अपने क्षेत्र का चयन करें</h3><p id="stateDescription">शासकीय सहायता-मार्ग यहाँ दिखाया जाएगा।</p></div>
         </div>
         <div class="state-links">
           <a class="primary-button" id="grievanceLink" href="https://nfsa.gov.in/portal/State_UT_Online_Grievance_AA" target="_blank" rel="noopener">परिवाद-मार्ग खोलें <span>↗</span></a>
-          <a class="outline-light" id="departmentLink" href="https://nfsa.gov.in/portal/State_Food_Directorate" target="_blank" rel="noopener">अन्न-विभाग का विवरण ↗</a>
-          <a class="outline-light" href="https://nfsa.gov.in/portal/district_food_and_supply_offices" target="_blank" rel="noopener">जनपद कार्यालय खोजें ↗</a>
+          <a class="outline-light" id="departmentLink" href="https://nfsa.gov.in/portal/State_Food_Directorate" target="_blank" rel="noopener">अन्न-विभाग का परिचय ↗</a>
+          <a class="outline-light" href="https://nfsa.gov.in/portal/district_food_and_supply_offices" target="_blank" rel="noopener">जनपद कार्यालय देखें ↗</a>
         </div>
-        <p class="microcopy" id="stateCaveat">शासकीय पृष्ठ का संचालन संबंधित विभाग करता है। बाहरी पृष्ठ पर जाने से पहले उसका नाम और पता जाँच लें।</p>
+        <p class="microcopy" id="stateCaveat">शासकीय पृष्ठ का संचालन सम्बन्धित विभाग करता है। अन्य पृष्ठ पर जाने से पहले उसका नाम और पता जाँच लें।</p>
       </div>
     </section>
 
     <section class="section complaint-section" id="patra">
       <div class="section-heading">
-        <div class="eyebrow dark"><span></span> पंचम चरण</div>
-        <h2>अपनी बात<br>स्पष्ट रूप में रखें।</h2>
-        <p>नीचे का प्रारूप भरने पर एक औपचारिक हिन्दी निवेदन तैयार होगा। इसे जाँचकर अपने राज्य के उचित कार्यालय में स्वयं प्रस्तुत करें।</p>
+        <div class="eyebrow dark"><span></span> पञ्चम सोपान</div>
+        <h2>अपना निवेदन<br>स्पष्ट रूप में प्रस्तुत करें।</h2>
+        <p>नीचे का प्रारूप भरने पर एक औपचारिक हिन्दी निवेदन निर्मित होगा। इसे जाँचकर अपने राज्य के समुचित कार्यालय में स्वयं प्रस्तुत करें।</p>
       </div>
       <div class="complaint-card panel">
-        <div class="panel-top"><span>निवेदन का प्रारूप</span><span class="step">केवल इसी उपकरण पर</span></div>
+        <div class="panel-top"><span>निवेदन का प्रारूप</span><span class="step">केवल इसी यन्त्र पर</span></div>
         <form id="complaintForm">
           <div class="form-row">
             <div class="field"><label for="personName">नाम</label><input id="personName" maxlength="80" placeholder="अपना नाम लिखें"></div>
             <div class="field"><label for="districtName">जनपद</label><input id="districtName" maxlength="80" placeholder="जनपद का नाम"></div>
           </div>
           <div class="form-row">
-            <div class="field"><label for="shopNumber">उचित मूल्य की दुकान का क्रमांक</label><input id="shopNumber" maxlength="40" placeholder="यदि उपलब्ध हो"></div>
-            <div class="field"><label for="cardNumber">अन्न-पत्र क्रमांक</label><input id="cardNumber" maxlength="40" placeholder="ऐच्छिक"></div>
+            <div class="field"><label for="shopNumber">उचित मूल्य विक्रय-केन्द्र का क्रमांक</label><input id="shopNumber" maxlength="40" placeholder="यदि उपलब्ध हो"></div>
+            <div class="field"><label for="cardNumber">अन्न-प्राप्ति पत्र का क्रमांक</label><input id="cardNumber" maxlength="40" placeholder="वैकल्पिक"></div>
           </div>
-          <div class="field"><label for="issueType">समस्या का प्रकार</label>
+          <div class="field"><label for="issueType">समस्या का भेद</label>
             <select id="issueType">
-              <option value="निर्धारित मात्रा से कम अन्न मिला">निर्धारित मात्रा से कम अन्न मिला</option>
+              <option value="नियत मात्रा से न्यून अन्न मिला">नियत मात्रा से न्यून अन्न मिला</option>
               <option value="अन्न का वितरण नहीं हुआ">अन्न का वितरण नहीं हुआ</option>
-              <option value="दुकान बन्द मिली">दुकान बन्द मिली</option>
-              <option value="अन्न की गुणवत्ता उचित नहीं थी">अन्न की गुणवत्ता उचित नहीं थी</option>
-              <option value="अनुचित मूल्य माँगा गया">अनुचित मूल्य माँगा गया</option>
-              <option value="अन्य समस्या हुई">अन्य समस्या हुई</option>
+              <option value="विक्रय-केन्द्र अवरुद्ध मिला">विक्रय-केन्द्र अवरुद्ध मिला</option>
+              <option value="अन्न की गुणवत्ता समुचित नहीं थी">अन्न की गुणवत्ता समुचित नहीं थी</option>
+              <option value="अनुचित धनराशि माँगी गई">अनुचित धनराशि माँगी गई</option>
+              <option value="अन्य बाधा उत्पन्न हुई">अन्य बाधा उत्पन्न हुई</option>
             </select>
           </div>
           <div class="form-row">
-            <div class="field"><label for="expectedQty">मिलना चाहिए था (किलोग्राम)</label><input id="expectedQty" type="number" min="0" step="0.01" placeholder="उदा. 20"></div>
-            <div class="field"><label for="actualQty">वास्तव में मिला (किलोग्राम)</label><input id="actualQty" type="number" min="0" step="0.01" placeholder="उदा. 15"></div>
+            <div class="field"><label for="expectedQty">प्राप्य मात्रा (किलोग्राम)</label><input id="expectedQty" type="number" min="0" step="0.01" placeholder="उदाहरणार्थ २०"></div>
+            <div class="field"><label for="actualQty">वास्तव में प्राप्त मात्रा (किलोग्राम)</label><input id="actualQty" type="number" min="0" step="0.01" placeholder="उदाहरणार्थ १५"></div>
           </div>
           <div class="field"><label for="incidentDate">घटना की तिथि</label><input id="incidentDate" type="date"></div>
-          <div class="field"><label for="incidentDetails">घटना का संक्षिप्त विवरण</label><textarea id="incidentDetails" rows="4" maxlength="700" placeholder="क्या हुआ, कहाँ हुआ और क्या उत्तर दिया गया?"></textarea></div>
-          <button class="primary-button full" type="submit">निवेदन तैयार करें <span>↘</span></button>
+          <div class="field"><label for="incidentDetails">घटना का संक्षिप्त वृत्तान्त</label><textarea id="incidentDetails" rows="4" maxlength="700" placeholder="क्या हुआ, कहाँ हुआ और क्या उत्तर मिला?"></textarea></div>
+          <button class="primary-button full" type="submit">निवेदन निर्मित करें <span>↘</span></button>
         </form>
         <div class="generated" id="generatedWrap" hidden>
-          <div class="generated-head"><strong>आपका निवेदन तैयार है</strong><button type="button" class="text-button" id="copyComplaint">निवेदन की प्रति लें</button></div>
+          <div class="generated-head"><strong>आपका निवेदन निर्मित है</strong><button type="button" class="text-button" id="copyComplaint">निवेदन की प्रतिलिपि लें</button></div>
           <pre id="generatedText"></pre>
-          <p class="microcopy">प्रस्तुत करने से पहले सभी तथ्य जाँचें। केवल वही विवरण रखें जिन्हें आप प्रमाणित कर सकते हैं। यह प्रारूप स्वयं परिवाद दर्ज नहीं करता।</p>
+          <p class="microcopy">प्रस्तुत करने से पहले सभी तथ्य जाँचें। केवल वही विवरण रखें जिन्हें आप प्रमाणित कर सकते हैं। यह प्रारूप स्वयं परिवाद अंकित नहीं करता।</p>
         </div>
       </div>
     </section>
 
     <section class="notice">
       <div class="notice-symbol">i</div>
-      <div><strong>महत्त्वपूर्ण सूचना</strong><p>यह स्वतंत्र जनोपयोगी लेखा-साधन है, शासकीय विभाग नहीं। गणना केवल अधिनियम में निर्धारित सामान्य अन्न-मात्रा दर्शाती है; पात्रता, वस्तु-विभाजन, मूल्य, अतिरिक्त लाभ तथा वितरण-नियम राज्य और समय के अनुसार भिन्न हो सकते हैं। यह किसी परिवार की पात्रता का निर्णय अथवा आधिकारिक परिवाद-पंजीकरण नहीं करता।</p><a href="https://www.nfsa.gov.in/portal/Coverage_Entitlements_NFSA_AA" target="_blank" rel="noopener">राष्ट्रीय खाद्य सुरक्षा अधिनियम का आधिकारिक विवरण ↗</a></div>
+      <div><strong>महत्त्वपूर्ण सूचना</strong><p>यह स्वतन्त्र लोकहितकारी लेखा-साधन है, शासकीय विभाग नहीं। गणना केवल अधिनियम में निर्धारित सामान्य अन्न-मात्रा दर्शाती है; पात्रता, अन्न-विभाजन, मूल्य, अतिरिक्त लाभ तथा वितरण-विधान राज्य और काल के अनुसार भिन्न हो सकते हैं। यह किसी कुटुम्ब की पात्रता का निर्णय अथवा शासकीय परिवाद-पञ्जीकरण नहीं करता।</p><a href="https://www.nfsa.gov.in/portal/Coverage_Entitlements_NFSA_AA" target="_blank" rel="noopener">राष्ट्रीय खाद्य सुरक्षा अधिनियम का शासकीय परिचय ↗</a></div>
     </section>
   </main>
 
-  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">अ</span><span><strong>अन्नलेखा</strong><small>अन्न का अधिकार · सजगता का आधार</small></span></a><span>स्वतंत्र जनोपयोगी साधन · निःशुल्क</span><span>आपका लेखा, आपके उपकरण में।</span></footer>
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">अ</span><span><strong>अन्नलेखा</strong><small>अन्नाधिकार · जागरूकता का आधार</small></span></a><span>स्वतन्त्र लोकहितकारी साधन · निःशुल्क</span><span>आपका लेखा, आपके यन्त्र में।</span></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="app.js"></script>
 </body>
